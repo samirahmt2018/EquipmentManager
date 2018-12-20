@@ -1,0 +1,52 @@
+﻿<Window x:Class="Equipment_Manager.addMachines"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Equipment_Manager"
+        mc:Ignorable="d"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+
+        Title="addMachines" Height="317" Width="344" Icon="Images/flint.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="166"/>
+            <ColumnDefinition Width="210"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right"  x:Name="labelMachineName" Content="Machine Name" VerticalAlignment="Center"   />
+        <TextBox  Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="machineNameBox"  Width="150"    />
+
+        <Label  x:Name="labelMajorFunctions" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Content="Major Functions"  VerticalAlignment="Center" />
+        <ComboBox   x:Name="majorFunctionsBox" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left"  Width="150" VerticalAlignment="Center" DisplayMemberPath="machine_function_name" SelectedValuePath="id"  />
+        <Label  x:Name="labelMachineModel" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" Content="Machine Model"  VerticalAlignment="Center" />
+        <TextBox    x:Name="machineModelBox" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left"  Width="150" VerticalAlignment="Center"  />
+        <Label  x:Name="labelProductionMeasurement" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" Content="Production Measured in"  VerticalAlignment="Center" />
+        <TextBox  VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left"  x:Name="productionMeasurementBox" Width="150"   />
+        <Label  x:Name="labelMachineCapacity"  Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" Content="Machine Capacity"   VerticalAlignment="Center"  />
+        <TextBox Width="150"  x:Name="machineCapacityBox"  Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
+        <Label  x:Name="labelmachineGroup"  Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" Content="Machine Group"   VerticalAlignment="Center"  />
+        <ComboBox Width="150"  x:Name="machineGroupBox"  Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Center" DisplayMemberPath="machine_group_name" SelectedValuePath="machine_group_id" />
+
+
+
+        <StackPanel Grid.Row="6" HorizontalAlignment="Right" Orientation="Horizontal" Grid.Column="1" Margin="0,6,60,0" >
+            <Button   x:Name="addMachinesButton" Content="Add" HorizontalAlignment="Right" VerticalAlignment="Center" Width="75"   Click="addMachinesButton_Click"  Margin="0,7"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

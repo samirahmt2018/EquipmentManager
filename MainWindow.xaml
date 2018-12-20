@@ -1,0 +1,36 @@
+﻿<Window x:Class="Equipment_Manager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Equipment_Manager"
+        mc:Ignorable="d"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+        Width="412" Height="210"        Title="Log in to Continue"  Padding="5,5,5,5" Icon="Images/flint.ico">
+    <Grid Margin="3,3,3,3" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="145*"/>
+            <ColumnDefinition Width="253*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="0" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Margin="0,8,0,7" Width="82">UserName</Label>
+        <TextBox Name="email_box" Height="25" Width="200" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,8"></TextBox>
+        <Label Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Margin="0,7,0,8" Width="82">Password</Label>
+        <PasswordBox Name="password_box" Height="26" Width="200" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,7,0,8"></PasswordBox>
+
+        <Button Name="Login_button" Height="24" Width="100" Click="Login_button_Click" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" >Login</Button>
+        <Button Name="Change_button" Height="25" Width="152" Click="Change_button_Click" Grid.Column="0" Grid.Row="3"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.ColumnSpan="2">Change Settings</Button>
+
+
+    </Grid>
+</Window>

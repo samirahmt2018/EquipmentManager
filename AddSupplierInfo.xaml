@@ -1,0 +1,52 @@
+﻿<Window x:Class="Equipment_Manager.AddSupplierInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Equipment_Manager"
+        mc:Ignorable="d"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+
+        Title="Add Supplier Info"  Height="407" Width="344" Icon="Images/flint.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="166"/>
+            <ColumnDefinition Width="210"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right"  x:Name="labelSupplierName" Content="Name" VerticalAlignment="Center"   />
+        <TextBox  Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="supplierNameBox"  Width="150"    />
+
+        <Label  x:Name="labelSupplierAddress" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Content="Address"  VerticalAlignment="Center" />
+        <TextBox  Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Stretch" x:Name="supplierAddressBox"  Width="150"    />
+        <Label  x:Name="labelSupplierPhone1" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" Content="Phone Number 1"  VerticalAlignment="Center" />
+        <TextBox    x:Name="supplierPhone1Box" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left"  Width="150" VerticalAlignment="Center"  />
+        <Label  x:Name="labelSupplierPhone2" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" Content="Phone Number 2"  VerticalAlignment="Center" />
+        <TextBox  VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left"  x:Name="supplierPhone2Box" Width="150"   />
+        <Label  x:Name="labelSupplierPobox"  Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" Content="PO. Box"   VerticalAlignment="Center"  />
+        <TextBox Width="150"  x:Name="supplierPoBox"  Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
+        <Label  x:Name="labelsupplierEmail"  Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" Content="Email"   VerticalAlignment="Center"  />
+        <TextBox  Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="supplierEmailBox"  Width="150"    />
+
+
+
+        <StackPanel Grid.Row="6" HorizontalAlignment="Right" Orientation="Horizontal" Grid.Column="1" Margin="0,6,60,0" >
+            <Button   x:Name="addSuppliersButton" Content="Add" HorizontalAlignment="Right" VerticalAlignment="Center" Width="75"   Click="addSuppliersButton_Click"  Margin="0,7"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

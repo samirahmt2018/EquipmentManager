@@ -1,0 +1,65 @@
+﻿<Window x:Class="Equipment_Manager.AddEmployees"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Equipment_Manager"
+        mc:Ignorable="d"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+
+         Title="Add New Employee/User" Height="472" Width="349" Icon="Images/flint.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="166"/>
+            <ColumnDefinition Width="210"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right"  x:Name="labelUserID" Content="User ID" VerticalAlignment="Center"   />
+        <TextBox  Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="userIdBox"  Width="150"    />
+
+        <Label  x:Name="labelUserName" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Content="First Name"  VerticalAlignment="Center"/>
+        <TextBox   x:Name="userNameBox" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left"  Width="150" VerticalAlignment="Center"   />
+        <Label  x:Name="labeluserFatherName" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" Content="Father Name"  VerticalAlignment="Center" />
+        <TextBox    x:Name="fatherNameBox" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left"  Width="150" VerticalAlignment="Center"  />
+        <Label  x:Name="labelUserDepartment" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" Content="Department"  VerticalAlignment="Center" />
+        <ComboBox  VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left"  x:Name="userDepartmentBox" Width="150"  DisplayMemberPath="department_name" SelectedValuePath="id" />
+        <Label  x:Name="labelUserLocation"  Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" Content="Current Site"   VerticalAlignment="Center"  />
+        <ComboBox Width="150"  x:Name="userLocationBox"  Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Center" DisplayMemberPath="Name" SelectedValuePath="id"/>
+        <Label  x:Name="labeluserEmail" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" Content="User Name"  VerticalAlignment="Center" />
+        <TextBox    x:Name="userEmailBox" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left"  Width="150" VerticalAlignment="Center"  />
+
+        <Label  x:Name="labeluserPhone" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" Content="Phone Number"  VerticalAlignment="Center" />
+        <TextBox    x:Name="userphoneBox" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left"  Width="150" VerticalAlignment="Center"  />
+        <Label  x:Name="labeluserPassword" Grid.Row="7" Grid.Column="0" HorizontalAlignment="Right" Content="User Password"  VerticalAlignment="Center" />
+        <PasswordBox    x:Name="userPasswordBox" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Left"  Width="150" VerticalAlignment="Center"  />
+        <Label  x:Name="labeluserLevel"  Grid.Row="8" Grid.Column="0" HorizontalAlignment="Right" Content="User Level"   VerticalAlignment="Center"  />
+        <ComboBox Width="150"  x:Name="userLevelBox"  Grid.Row="8" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Center" DisplayMemberPath="user_level_name" SelectedValuePath="id" />
+
+        <Label  x:Name="labelUserStatus" Grid.Row="9" Grid.Column="0" HorizontalAlignment="Right" Content="Is Employee Active"  VerticalAlignment="Center" />
+        <CheckBox  VerticalAlignment="Center" Grid.Row="9" Grid.Column="1" HorizontalAlignment="Left"  x:Name="UserStatusBox" Width="150" IsChecked="True"  />
+
+
+        <StackPanel Grid.Row="10" HorizontalAlignment="Right" Orientation="Horizontal" Grid.Column="1" Margin="0,6,60,0" >
+            <Button   x:Name="addEmployee" Content="Add" HorizontalAlignment="Right" VerticalAlignment="Center" Width="75"   Click="addEmployee_Click"  Margin="0,7"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

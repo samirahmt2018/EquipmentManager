@@ -1,0 +1,73 @@
+﻿<Window x:Class="Equipment_Manager.addEquipment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Equipment_Manager"
+        mc:Ignorable="d"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+
+        Title="Add New Equipment" Height="557" Width="389" Icon="Images/flint.ico">
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+
+
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="166"/>
+            <ColumnDefinition Width="210"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right"  x:Name="labelMachine" Content="Machine Type" VerticalAlignment="Center"   />
+        <ComboBox  Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="machineTypeBox"  Width="205"   DisplayMemberPath="machine_name" SelectedValuePath="machine_id" SelectionChanged="machineTypeBox_SelectionChanged" />
+
+        <Label  x:Name="labelEquipmentType" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Content="Equipment Type"  VerticalAlignment="Center" />
+        <ComboBox   x:Name="equipmentTypeBox" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left"  Width="205" VerticalAlignment="Center" SelectionChanged="equipmentTypeBox_SelectionChanged" DisplayMemberPath="type_name" SelectedValuePath="id" />
+        <Label  x:Name="labelEquipmentId" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" Content="Equipment ID"  VerticalAlignment="Center" />
+        <TextBox    x:Name="equipmentIdBox" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left"  Width="150" VerticalAlignment="Center"  />
+        <Label  x:Name="labelplateNumber" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" Content="Plate Number"  VerticalAlignment="Center" />
+        <TextBox  VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left"  x:Name="plateNumberBox" Width="150"   />
+        <Label  x:Name="labelManufYear" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" Content="Manufactured Year"  VerticalAlignment="Center" />
+        <DatePickerTextBox  VerticalAlignment="Center"  x:Name="manufacturedYearBox" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" Width="150"/>
+        <Label  x:Name="labelCurrentLocation"  Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" Content="Current Site"   VerticalAlignment="Center"  />
+        <ComboBox Width="150"  x:Name="currentLocationBox"  Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Center" DisplayMemberPath="Name" SelectedValuePath="id" />
+        <Label  x:Name="labelCurrentStatus"  Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" Content="Current Status"   VerticalAlignment="Center"   />
+        <ComboBox Width="150"  x:Name="currentStatusBox"  Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Center" DisplayMemberPath="status_name" SelectedValuePath="status_id"/>
+        <Label  x:Name="labelInvestmentCost" Grid.Row="7" Grid.Column="0" HorizontalAlignment="Right" Content="Investment Cost"  VerticalAlignment="Center" />
+        <TextBox  VerticalAlignment="Center" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Left"  x:Name="investmentCostBox" Width="150"   />
+        <Label  x:Name="labelServicedEvery" Grid.Row="8" Grid.Column="0" HorizontalAlignment="Right" Content="Serviced Every"  VerticalAlignment="Center" />
+        <TextBox  VerticalAlignment="Center" Grid.Row="8" Grid.Column="1" HorizontalAlignment="Left"  x:Name="servicedEveryBox" Width="150"   />
+        <Label  x:Name="labelInsuranceStatus"  Grid.Row="9" Grid.Column="0" HorizontalAlignment="Right" Content="Insurance Status"   VerticalAlignment="Center"   />
+        <ComboBox Width="150"  x:Name="insuranceStatusBox"  Grid.Row="9" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Center" DisplayMemberPath="insurance_status_name" SelectedValuePath="id"/>
+        <Label  x:Name="labelOperator"  Grid.Row="10" Grid.Column="0" HorizontalAlignment="Right" Content="Operator Name"   VerticalAlignment="Center"   />
+        <ComboBox Width="150"  x:Name="operatorNameBox"  Grid.Row="10" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Center" DisplayMemberPath="detail" SelectedValuePath="user_id"  IsTextSearchEnabled="True"/>
+        <Label  x:Name="labelSupplier"  Grid.Row="11" Grid.Column="0" HorizontalAlignment="Right" Content="Supplied By"   VerticalAlignment="Center"   />
+        <ComboBox Width="150"  x:Name="supplierBox"  Grid.Row="11" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Center" DisplayMemberPath="supplier_name" SelectedValuePath="supplier_id"  IsTextSearchEnabled="True"/>
+
+
+
+
+
+        <StackPanel Grid.Row="12" HorizontalAlignment="Right" Orientation="Horizontal" Grid.Column="1" Margin="0,6,18,0" >
+            <Button   x:Name="addEquipmentButton" Content="Add" HorizontalAlignment="Right" VerticalAlignment="Center" Width="75"   Click="addEquipmentButton_Click" Margin="0,7"/>
+        </StackPanel>
+    </Grid>
+</Window>

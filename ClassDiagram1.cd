@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="Equipment_Manager.AddEmployees" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddEmployees.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.addEquipment" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAICAAAAEAAAAAACAAABhAAAgAAA=</HashCode>
+      <FileName>addEquipment.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.AddEquipmentsReport" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAACAAQAAAAQAAAAA=</HashCode>
+      <FileName>AddEquipmentsReport.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.addMachines" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>addMachines.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.addSites" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>addSites.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.AddSupplierInfo" BaseTypeListCollapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>AddSupplierInfo.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.AllocateItem" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAABAAABAAAAIASAAAABAAAAAAACAAAAAAAAAACAA=</HashCode>
+      <FileName>AllocateItem.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.AllocationRequests" BaseTypeListCollapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAgAAAAAACAAAAAAAQAAAAA=</HashCode>
+      <FileName>AllocationRequests.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.ApproveAllocation" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQAABAAAAAFAAAAAAAAAAAAAAGAAAEIgAAAAAAA=</HashCode>
+      <FileName>ApproveAllocation.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.ApproveMaintainanceRequest" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAFAAAAAAEBAAAAAAGAAAAIAAAAAAAg=</HashCode>
+      <FileName>ApproveMaintainanceRequest.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.ApproveServiceRequest" BaseTypeListCollapsed="true">
+    <Position X="18" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAAAAAAAAFAAAAAAAAAAAAAAGAAAAIAAAAAAAA=</HashCode>
+      <FileName>ApproveServiceRequest.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.ApproveSparepartPurchase" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAABAAAAAFAAAAAAAAAAAAAAGAAAAIAAAAAAAA=</HashCode>
+      <FileName>ApproveSparepartPurchase.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.ChangePassword" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>ChangePassword.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.ChangeSettings" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABABAAAAABGAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>ChangeSettings.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.DBManager">
+    <Position X="14.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kQhgICMAEMQREISAIAgIUBwUhSQQAACwQWQYoAAUqYA=</HashCode>
+      <FileName>DBManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equipment_Manager.DepreciatedValue" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DepreciatedValue.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.EnterTransportationCost" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>EnterTransportationCost.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.ExcelFileSelector" BaseTypeListCollapsed="true">
+    <Position X="13" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAAAAAAAAAAAAABABAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ExcelFileSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.Home" BaseTypeListCollapsed="true">
+    <Position X="13" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UQDCAAUAAABgIGLQCBAEAYxBAASwAAAIgBBADIABQQA=</HashCode>
+      <FileName>Home.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.MaintainanceRequests" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>MaintainanceRequests.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.myMessageBox" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>myMessageBox.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.myValidation">
+    <Position X="20" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIIAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>myValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equipment_Manager.NewInsurancePayment" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAEAACAAAAAAAQAAAAA=</HashCode>
+      <FileName>NewInsurancePayment.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.NewMaintainanceRequest" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAQAAAAA=</HashCode>
+      <FileName>NewMaintainanceRequest.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.NewServiceRequest" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAgAAAAAACAAAAAAAQAAAAA=</HashCode>
+      <FileName>NewServiceRequest.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.NewSparepartPurchase" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAQAAAAA=</HashCode>
+      <FileName>NewSparepartPurchase.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.PurchaseRequest" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAQCAAAAAAAQAAAAA=</HashCode>
+      <FileName>PurchaseRequest.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.ServiceOrder" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAACAAAAAAAAAAAAAIgAAAAAAwAAQAAAA=</HashCode>
+      <FileName>ServiceOrder.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.ServiceRequests" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAACAAAAAgAAAAAAAgAQAAAAA=</HashCode>
+      <FileName>ServiceRequests.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.WorkOrder" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAAAAAAAAAAAAAAIgAAAAAAwAQQAAAg=</HashCode>
+      <FileName>WorkOrder.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Equipment_Manager.Properties.Resources">
+    <Position X="20" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAABAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equipment_Manager.Properties.Settings">
+    <Position X="9.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAIAAAAAMJAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
